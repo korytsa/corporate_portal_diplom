@@ -1,0 +1,109 @@
+$blue: #0E046F;
+.container__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    background-color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    color: $blue;
+    margin: 15px;
+    border-radius: 15px;
+    border: 3px solid #DDDDDD;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+    &__title{
+        padding: 10px 20px 0;
+    }
+    &__picture{
+        display:flex;
+        justify-content: center; 
+
+        &__news{
+            width: 370px;
+            height: 220px;
+            align-self:center;
+            padding: 0 20px;
+        }
+        &__document{
+            width: 164px;
+            height: 200px;
+            align-self:center;
+            padding: 10px 10px;
+        }
+        &__calendar{
+            width: 340px;
+            height: 200px;
+            align-self:center;
+            padding: 10px 40px;
+        }
+        &__contacts{
+            width: 210px;
+            height: 200px;
+            align-self:center;
+            padding: 10px 35px 20px;
+        }
+        &__person{
+            width: 340px;
+            height: 220px;
+            align-self:center;
+            padding: 0 20px;
+        }
+        &__meeting{
+            width: 358px;
+            height: 220px;
+            align-self:center;
+            padding: 0 30px;
+        }
+        &__chat{
+            width: 180px;
+            height: 200px;
+            align-self:center;
+            padding: 15px 40px;
+        }
+        &__achievements{
+            width: 210px;
+            height: 200px;
+            align-self:center;
+            padding: 15px 35px;
+        }
+        &__settings{
+            width: 320px;
+            height: 230px;
+            align-self:center;
+            padding: 0 30px;
+        }
+        &__anketa{
+            width: 237px;
+            height: 230px;
+            align-self:center;
+            padding: 5px 10px 0;
+        }
+        &__projects{
+            width: 352px;
+            height: 220px;
+            align-self:center;
+            padding: 0 40px 15px;
+        }
+        &__reference{
+            width: 400px;
+            height: 230px;
+            align-self:center;
+            padding: 10px 55px 10px;
+        }
+        &__support{
+            width: 354px;
+            height: 225px;
+            align-self:center;
+            padding: 12px 15px 5px;
+        }
+    }
+}

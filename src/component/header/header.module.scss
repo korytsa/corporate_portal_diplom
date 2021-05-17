@@ -1,0 +1,79 @@
+$blue: #0E046F;
+body{
+    background: #EEF1FF;
+    margin: 0
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1457px;
+    height: 80px;
+    margin: 0 120px;
+}
+.burgerLogo{
+    width: 42px;
+    height: 22px;
+}
+.personInfo{
+    display: flex;
+    align-items: center;
+}
+.userPhoto{
+    width: 43px;
+    height: 43px;
+    margin-right: 30px;
+}
+.userName{
+    color: $blue;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: center;
+}
+.burgerMenu{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    max-width: 325px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: $blue;
+    border-radius: 0px 30px 30px 0px;
+    ul{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+        color: #E3E8FF;
+    }
+    li{
+        list-style-type: circle;
+        padding: 8px 0;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    ul li:hover{
+        color: white;
+        list-style-type: disc;
+    }
+}
+.burgerClose{   
+    margin-top: 10%;
+    margin-right: 10%;
+    height: 17px;
+    cursor: pointer;
+    color: #dbdbdb;
+    font-size: 28px;
+    font-weight: bold;
+}
